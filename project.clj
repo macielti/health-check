@@ -12,8 +12,8 @@
 
                    :test-paths     ^:replace ["test/unit" "test/integration" "test/helpers"]
 
-                   :plugins        [[com.github.clojure-lsp/lein-clojure-lsp "2.1.0"]
-                                    [com.github.liquidz/antq "RELEASE"]]
+                   :plugins        [[com.github.clojure-lsp/lein-clojure-lsp "2.1.0"] ;; plugin for formatting and cleaning namespaces
+                                    [com.github.liquidz/antq "RELEASE"]] ;;  plugin for upgrading outdated dependencies
 
                    :dependencies   [[prismatic/schema "1.4.2"]
                                     [nubank/matcher-combinators "3.11.0"]
