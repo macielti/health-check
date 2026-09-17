@@ -13,3 +13,5 @@ pom.xml.asc
 .hg/
 /health-check.iml
 /.idea/
+/.lsp/.cache/
+/.clj-kondo/
